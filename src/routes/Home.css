@@ -79,10 +79,11 @@ h2 {
 
   .dashboard {
     padding: 1rem;
-    max-width: 80%;
+    max-width: 90%;
   }
 
   .graph-area {
     display: none;
   }
 }
+

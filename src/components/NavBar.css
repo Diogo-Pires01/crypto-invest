@@ -1,0 +1,38 @@
+nav {
+    padding: 8px 32px;
+    display: flex;
+    justify-content: space-between;
+    color: #f1cb30;
+    background-color: #181A20;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.navbar .h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar span {
+    color: #f1cb30;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: .6rem;
+    gap: 24px;
+}
+
+li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.button a {
+    background-color: #f1cb30;
+    color: #181A20;
+    padding: .4rem;
+    border-radius: .3rem;
+}

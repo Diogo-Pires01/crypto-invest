@@ -1,0 +1,70 @@
+.wallet-container {
+  background-color: #181a20;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: #ccc;
+}
+
+.budget {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #4d4d4d;
+  max-height: 150px;
+  justify-content: center;
+}
+
+.budget h1 {
+  padding: 0;
+  font-size: 1.4rem;
+  font-weight: 200;
+  margin: 1rem 0 0 2rem;
+  color: #ccc;
+}
+
+.budget h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  color: #f1cb30;
+}
+
+.budget .budget-variation {
+  display: flex;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: green;
+}
+
+.history-container {
+  border: 1px solid #4d4d4d;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 72%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.history-container h2 {
+  padding: 0;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.headers li {
+  color: #fff;
+  font-weight: 600;
+}
+
+.investments-list ul{
+  border-bottom: 1px solid #4d4d4d;
+}
+
+.investments-list li {
+  width: 150px;
+  margin-bottom: 1rem;
+}

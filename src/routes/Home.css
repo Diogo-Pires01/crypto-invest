@@ -1,0 +1,64 @@
+/* Geral */
+.container {
+  background-color: #181a20;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 2rem;
+  color: #f3f2f2;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+
+/* Dashboard */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 3rem;
+  gap: 2rem;
+}
+
+.dashboard {
+  color: #f3f2f2;
+  border: 1px solid #4d4d4d;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 40%;
+  height: 308px;
+  flex: 1;
+}
+
+.dashboard ul {
+  padding: 0.8rem 0;
+  font-weight: 500;
+  border-bottom: 1px solid #4d4d4d;
+  cursor: pointer;
+}
+
+.dashboard .crypto-name {
+  min-width: 10%;
+}
+
+.dashboard .crypto-value {
+  min-width: 25%;
+}
+
+/* Grafico */
+.graph-area {
+  color: #f3f2f2;
+  border: 1px solid #4d4d4d;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 55%;
+  flex: 1;
+}

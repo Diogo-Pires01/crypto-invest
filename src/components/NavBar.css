@@ -35,4 +35,11 @@ li a{
     color: #181A20;
     padding: .4rem;
     border-radius: .3rem;
+
+}
+
+@media (max-width: 425px) {
+  .navbar li {
+    display: none;
+  }
 }
